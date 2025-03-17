@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tetris Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="grid">
+            <!-- Tạo 200 ô cho grid chính (10x20) -->
+            <!-- Thêm 10 ô ẩn để kiểm tra va chạm -->
+        </div>
+        <div class="mini-grid"></div>
+        <div class="info">Score: <span id="score">0</span></div>
+        <div class="controls">Use Arrow Keys: ← → ↓(hold to speed) ↑</div>
+    </div>
+    <div id="game-over" class="game-over">
+        <div class="game-over-content">
+            <h1>Game Over</h1>
+            <p>Your Score: <span id="final-score">0</span></p>
+            <button id="restart-btn">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
